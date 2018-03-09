@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>CONTACT-active</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="56.7901952" height="36.7647157" rx="5"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="56.7901952" height="36.7647157" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CONTACT-active">
+            <text id="CONTACT" font-family="Roboto-Medium, Roboto" font-size="18" font-weight="400" fill="#EA886A">
+                <tspan x="8.48095703" y="88">CONTACT</tspan>
+            </text>
+            <g id="Group-9" transform="translate(22.000000, 28.000000)">
+                <g id="Group-8" transform="translate(0.000000, 5.252102)"></g>
+                <use id="Rectangle-10" stroke="#EA886A" mask="url(#mask-2)" stroke-width="6" xlink:href="#path-1"></use>
+                <polyline id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square" points="4.54619499 5.25210225 25.4427354 17.75018 28.2730975 18.3823579 31.0087734 17.75018 52 5.25210225"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

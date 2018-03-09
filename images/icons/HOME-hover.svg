@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>HOME-hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20.2666667,40.3229078 C20.2666667,38.1146476 22.060235,36.324499 24.2738101,36.324499 L32.7261899,36.324499 C34.9392741,36.324499 36.7333333,38.1241051 36.7333333,40.3229078 L36.7333333,55.4534583 L20.2666667,55.4534583 L20.2666667,40.3229078 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16.4666667" height="19.1289593" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M0,20.1357561 C0,17.3762476 1.91421955,13.9936053 4.2975957,12.5672065 L21.6372719,2.18978747 C25.427452,-0.0785528595 31.5770778,-0.0758418706 35.3627281,2.18978747 L52.7024043,12.5672065 C55.0759009,13.9876926 57,17.3698228 57,20.1357561 L57,51.5522836 C57,53.7639456 55.1999609,55.5568519 52.9918707,55.5568519 L4.00812931,55.5568519 C1.79450062,55.5568519 0,53.7680058 0,51.5522836 L0,20.1357561 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="57" height="55.0673032" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOME-hover">
+            <g id="Group-3-Copy" transform="translate(22.000000, 9.000000)" stroke-width="6">
+                <use id="Rectangle-17" stroke="#868686" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                <use id="Combined-Shape" stroke="#369BC4" mask="url(#mask-4)" xlink:href="#path-3"></use>
+            </g>
+            <text id="HOME" font-family="Roboto-Medium, Roboto" font-size="18" font-weight="400" fill="#369BC4">
+                <tspan x="24.1359994" y="88">HOME</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

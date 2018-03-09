@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>RESUME-active</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="43.6280842" height="55.8034555" rx="8"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="43.6280842" height="55.8034555" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="RESUME-active">
+            <text id="RESUME" font-family="Roboto-Medium, Roboto" font-size="18" font-weight="400" fill="#EA886A">
+                <tspan x="14.7783203" y="88">RESUME</tspan>
+            </text>
+            <g id="Group-2-Copy-5" transform="translate(28.000000, 9.000000)">
+                <g id="Group">
+                    <use id="Rectangle-3" stroke="#EA886A" mask="url(#mask-2)" stroke-width="6" xlink:href="#path-1"></use>
+                    <text id="CV" font-family="Roboto-Black, Roboto" font-size="12" font-weight="700" fill="#868686">
+                        <tspan x="21" y="16">CV</tspan>
+                    </text>
+                    <path d="M6.41589474,23.3334292 L37.2121895,23.3334292" id="Line" stroke="#868686" stroke-linecap="square"></path>
+                    <path d="M6.41589474,26.8554563 L37.2121895,26.8554563" id="Line" stroke="#868686" stroke-linecap="square"></path>
+                    <path d="M6.41589474,30.3774833 L37.2121895,30.3774833" id="Line" stroke="#868686" stroke-linecap="square"></path>
+                    <path d="M6.41589474,36.5410306 L21.8140421,36.5410306" id="Line" stroke="#868686" stroke-linecap="square"></path>
+                    <path d="M6.41589474,40.0630577 L21.8140421,40.0630577" id="Line" stroke="#868686" stroke-linecap="square"></path>
+                    <path d="M6.41589474,43.5850847 L21.8140421,43.5850847" id="Line" stroke="#868686" stroke-linecap="square"></path>
+                    <path d="M6.41589474,47.1071118 L21.8140421,47.1071118" id="Line" stroke="#868686" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
