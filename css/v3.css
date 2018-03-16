@@ -1,0 +1,296 @@
+/* +++++++++++ RESET and HOUSEKEEPING +++++++++++ */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html, body {
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 100vw;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/* +++++++++++ PAGE LAYOUT +++++++++++ */
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+/* +++++++++++ NAV LAYOUT +++++++++++ */
+
+
+
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 160px;
+    position: fixed;
+    justify-content: center;
+    /* z-index: 1; */
+    /* top: 0;
+    left: 0; */
+    overflow-x: hidden;
+    padding-top: 20px;
+
+
+}
+
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+
+/* +++++++++++ PANEL LAYOUT +++++++++++ */
+
+
+
+.panel-container {
+    display: block;
+    overflow: auto;
+    height: calc(100vh - 300px);
+    width: calc(100vw - 160px);
+    flex-grow: 1;
+    margin-left: 160px; /* Same as the width of the sidenav */
+}
+/*
+.panel-wrapper {
+    display: flex;
+    flex-direction: column;
+}*/
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #e7e7e7;
+}
+
+/* +++++++++++ PANEL TITLE +++++++++++ */
+
+.panel-title {
+  display: flex;
+  flex-grow: 1;
+
+  min-width: 100vw;
+  padding: .5em;
+
+
+  font-family: 'roboto  ', sans-serif;
+  color: #262626;
+  font-weight: 300;
+  font-size:2.5em;
+  height: 110px; /* ++++++ This has to add up to 100 */
+}
+
+#strategy-title {
+  color: #868686;
+  /*border-bottom: 3px solid black;*/
+}
+
+#design-title {
+  color: #868686;
+}
+
+#dev-title {
+  color: #868686;
+}
+
+/* +++++++++++ PANEL CONTENT LAYOUT +++++++++++ */
+
+/* this is is for the default hidden state */
+.panel-content {
+  height: 0;
+  transition: height 0.5s;
+  overflow: hidden;
+}
+
+.inner-content {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 330px);
+  min-height: calc(100vh - 330px);
+  max-height: calc(100vh - 330px); /* this has to add up to 100, use "min-height" here to force the content to stretch the full container. */
+  width: 100vw;
+
+  font-family: 'quicksand', sans-serif;
+}
+
+.content-title {
+  color: #262626;
+  font-size: 2em;
+}
+
+.content-body {
+  font-size: 1.2em;
+  color: #262626;
+}
+
+.content-body-wrapper {
+  display: flex;
+  flex-grow: 1;
+}
+
+.content-body-wrapper > * {
+  width: 50%;
+}
+
+.content-image {
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  min-height: 100px;
+}
+
+/* +++++++++++ STRATEGY PANEL +++++++++++ */
+
+#strategy-content {
+  /* background-image: url("../images/strategy.svg");
+  background-size: 100% 100%;
+  background-position: 100% 100%;
+  background-repeat: no-repeat; */
+}
+
+.inner-content {
+  padding: 2vw;
+}
+
+#strategy-content-title {
+
+}
+
+#strategy-content-body {
+
+}
+
+#strategy-content-image {
+  background-image: url("https://picsum.photos/300/200/?random");
+}
+
+/* +++++++++++ DESIGN PANEL +++++++++++ */
+
+#design-content {
+  /* background-image: url("https://picsum.photos/300/200/?random");
+  background-size: 100% 100%;
+  background-position: 80% 80%;
+  background-repeat: no-repeat; */
+}
+
+#design-content-title {
+
+}
+
+#design-content-body {
+
+}
+
+#design-content-image {
+  background-image: url("https://picsum.photos/300/200/?random");
+}
+
+/* +++++++++++ DEV PANEL +++++++++++ */
+
+#dev-content {
+  /* background-image: url("https://picsum.photos/300/200/?random");
+  background-size: 100% 100%;
+  background-position: 80% 80%;
+  background-repeat: no-repeat; */
+}
+
+#dev-content-title {
+
+}
+
+#dev-content-body {
+
+}
+
+#dev-content-image {
+  background-image: url("https://picsum.photos/300/200/?random");
+}
+
+#dev-panel {
+  border-bottom: none;
+}
+
+
+
+/* RESPONSIVE BREAKPOINTS */
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (max-width : 700px) {
+/* Styles */
+.header-logo {
+    width: 100px;
+    height: 100px; /* ++++++ This has to add up to 100 */
+  }
+.header-text {
+    font-size: 3em;
+  }
+.panel-title {
+    font-size: 2em;
+  }
+
+  .inner-content {
+    height: calc(100vh - 530px);
+    min-height: calc(100vh - 530px);
+    max-height: calc(100vh - 530px); /* this has to add up to 100, use "min-height" here to force the content to stretch the full container. */
+
+  }
+
+.content-body-wrapper {
+  flex-direction: column;
+  }
+
+.content-image {
+  flex-grow: 1;
+  }
+
+.content-body-wrapper > * {
+  width: 100%;
+  }
+
+.content-body {
+  margin-bottom: 2em;
+}
+
+nav {
+  min-height:100px;
+  max-height:100px;
+}
+
+/* Tablets (portrait and landscape) ----------- */
+/* @media (min-width : 641px) and (max-width : 1024px) {} */
+/* Styles */
+/*
+.content-body-wrapper {
+  flex-direction: column;
+}
+
+.content-image {
+  flex-grow: 1;
+}
+
+.content-body-wrapper > * {
+  width: 100%;
+} */
